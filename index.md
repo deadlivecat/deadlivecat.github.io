@@ -2,122 +2,37 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# We are Dead/Live Cat productions!
 
-[Link to another page](./another-page.html).
+A team of developers learning how to make games. Support us.
 
-There should be whitespace between paragraphs.
+## Portfolio
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+* Nothing yet (but our first game is coming out soon)
 
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+## Support us
+* * *
+![BTC](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/btc.png)
+> bc1qasmxy06pcvqzfeuq388hyz7snpxlu73jufrpd6
+![BTCqp](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/btcqr.png)
 
 * * *
+![ETH](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/eth.png)
+> 0x40cD8c03d600E2a93D6451AA0Ad1a359983Fc73E
+![ETHqp](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/ethqr.png)
 
-### Here is an unordered list:
+* * *
+![XRP](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/xrp.png)
+> rsRhrQAnSDvUDC7WnwJo9NmkERWUfWLe6Y
+![XQRqp](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/xrpqr.png)
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+* * *
+![BCH](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/bch.png)
+> 1MFfCgbv3bLSFotnUCe4cTskyPQP3HXuqQ
+![BCHqp](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/BCHqr.png)
 
-### And an ordered list:
+* * *
+![LTC](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/ltc.png)
+> ltc1q0eaa6ee2m3f9hhht8nzvvl2v0r4yygfcu8xk58
+![LCTqp](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/ltcqr.png)
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
