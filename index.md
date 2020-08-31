@@ -12,7 +12,7 @@ A team of developers learning how to make games. Support us.
 
 ## Support us
 * * *
-![BTC](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/btc.png)
+![BTC](./assets/img/btc.png)
 > bc1qasmxy06pcvqzfeuq388hyz7snpxlu73jufrpd6
 ![BTCqp](https://github.com/deadlivecat/deadlivecat.github.io/blob/master/assets/img/btcqr.png)
 
