@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# We are Dead/Live Cat productions!
+# We are Dead/Live Cat!
 
 A team of developers learning how to make games. Support us.
 
