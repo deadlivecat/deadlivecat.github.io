@@ -23,6 +23,10 @@ html {
       font-size: 40px;
       margin-bottom: 30px;
     }
+
+    p {
+      margin: 0;
+    }
   }
 
   body {
@@ -53,6 +57,20 @@ html {
         transform: none;
       }
 
+      .lang-button {
+        display: inline-flex;
+        text-decoration: none;
+        color: unset;
+        margin-top: 15px;
+        background-color: #ffae46ed;
+        border: 3px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: Komika;
+        font-size: 16px;
+        padding: 2px 20px;
+      }
+
       .title {
         font-size: 5vw;
         @media only screen and (max-width: 1200px) {
@@ -70,7 +88,10 @@ html {
       .social-btns {
         display: flex;
         justify-content: space-around;
-        margin-top: 40px;
+        font-size: 40px;
+        @media only screen and (max-width: 1200px) {
+          margin-top: 20px;
+        }
         .sn {
           width: 100px;
 
@@ -97,17 +118,41 @@ html {
 
       .inner {
         display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
         @media only screen and (max-width: 1200px) {
           flex-direction: column;
           align-items: center;
         }
 
-        img.preview {
-          border: 5px solid black;
-          width: 500px;
-          height:100%;
-          @media only screen and (max-width: 1200px) {
-            width: 95%;
+        .col-right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          img.preview {
+            border: 5px solid black;
+            width: 500px;
+            height:100%;
+            @media only screen and (max-width: 1200px) {
+              width: 95%;
+            }
+          }
+
+          button.play {
+            margin-top: 50px;
+            height: 50px;
+            background-color: #ebff00ee;
+            border: 3px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Komika;
+            font-size: 20px;
+            padding: 0 20px;
+            @media only screen and (max-width: 1200px) {
+              font-size: 16px;
+            }
           }
         }
 
@@ -116,7 +161,7 @@ html {
             margin-top: 0
           }
 
-          margin-left: 20px;
+          text-align: justify;
           font-size: 20px;
           line-height: 38px;
           width: calc(100% - 550px);
@@ -148,7 +193,7 @@ html {
         @media only screen and (max-width: 600px) {
           grid-template-columns: 100%;
         }
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 33% 33% 33%;
 
         .account {
           display: flex;
@@ -156,6 +201,7 @@ html {
           align-items: center;
           font-size: 12px;
           font-family: sans-serif;
+          cursor: pointer;
 
           .logo {
             background-color: rgba(255,255,255,0.85);
@@ -166,6 +212,13 @@ html {
 
           .address {
             margin: 15px 0;
+            background-color: rgba(25,0,100,0.5);
+            padding: 5px;
+            border-radius: 10px;
+          }
+
+          &.pp {
+            background-color: #053088;
           }
 
           &.btc {
@@ -174,6 +227,10 @@ html {
 
           &.eth {
             background-color: #C2B5FA;
+          }
+
+          &.bch {
+            background-color: #22C08F;
           }
 
           &.xrp {

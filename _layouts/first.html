@@ -33,4 +33,23 @@
     </script>
     {% endif %}
   </body>
+  <script>
+    function copyToClipboard(elem) {
+      var copyText = elem.value;
+      navigator.clipboard.writeText(copyText).then(() => alert('Copied to Clipboard!'));
+    }
+
+    window.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('.accounts .account').forEach((account) => {
+        account.addEventListener('click', (event) => {
+          if (url = event.currentTarget.dataset.url) {
+            window.open(url);
+          } else {
+            var i = account.querySelector('input');
+            copyToClipboard(i);
+          }
+        });
+      });
+    });
+  </script>
 </html>
