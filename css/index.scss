@@ -89,9 +89,8 @@ html {
         display: flex;
         justify-content: space-around;
         font-size: 40px;
-        @media only screen and (max-width: 1200px) {
-          margin-top: 20px;
-        }
+        margin-top: 20px;
+
         .sn {
           width: 100px;
 
