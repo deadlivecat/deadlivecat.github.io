@@ -1,6 +1,5 @@
 title: Dead/Live Cat
 logo: assets/img/logo.png
 description: Games, for Fun and profit!.
-google_analytics: false
 sass:
     style: compressed
